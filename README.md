@@ -75,41 +75,11 @@ The neural network is implemented from scratch in Python using libraries such as
   - Pandas
   - Matplotlib
 
-Install dependencies using:
-```bash
-pip install -r requirements.txt
-```
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/KartikAg13/iris_species_nn.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd iris_species_nn
-   ```
-3. Ensure the Iris dataset (`Iris.csv`) is placed in the same directory.
-4. Run the Python script:
-   ```bash
-   python iris_nn.py
-   ```
-
 ## File Structure
-- `iris_nn.py`: Main script for implementing and training the neural network.
-- `Iris.csv`: Dataset file (download from [Kaggle](https://www.kaggle.com/datasets/uciml/iris)).
-- `readme.md`: Documentation for the project.
+- `main.ipynb`: Main script for implementing and training the neural network.
+- `README.md`: Documentation for the project.
 
 ## Future Enhancements
 - Implement dropout for regularization.
 - Test on a validation/test split to evaluate generalization.
 - Add hyperparameter tuning options.
-
-## References
-- [He Initialization](https://arxiv.org/abs/1502.01852)
-- [Adam Optimizer](https://arxiv.org/abs/1412.6980)
-- [Kaggle Iris Dataset](https://www.kaggle.com/datasets/uciml/iris)
-
----
-For any questions or suggestions, feel free to open an issue or reach out. Happy coding!
-
